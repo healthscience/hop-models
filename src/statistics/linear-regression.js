@@ -12,7 +12,7 @@ async function loadBaseModel() {
   try {
     if (os.platform() === 'win32') {
       BaseModel = '/Users/' + homedir +'/hop-models/base/base-model.js';
-      BaseModel = (await import(baseModelUrl)).default;
+      BaseModel = (await import(BaseModel)).default;
     } else {
       BaseModel = (await import('../base/base-model.js')).default;
     }
