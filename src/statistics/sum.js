@@ -23,7 +23,6 @@ async function loadBaseModel() {
 }
 
 await loadBaseModel()
-}
 
 export default class SumModel extends BaseModel {
   constructor() {
