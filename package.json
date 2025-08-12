@@ -1,0 +1,33 @@
+{
+  "name": "hop-models",
+  "version": "0.0.1",
+  "description": "compute models for HOP network",
+  "main": "src/index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/healthscience/hop-models.git"
+  },
+  "keywords": [
+    "hop",
+    "bentoboxds",
+    "compute",
+    "coherence"
+  ],
+  "author": "beebeehop",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/healthscience/hop-models/issues"
+  },
+  "homepage": "https://github.com/healthscience/hop-models#readme",
+  "dependencies": {
+    "crypto-browserify": "^3.12.1",
+    "simple-statistics": "^7.8.8"
+  }
+}
