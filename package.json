@@ -1,6 +1,6 @@
 {
   "name": "hop-models",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "compute models for HOP network",
   "main": "src/index.js",
   "type": "module",
